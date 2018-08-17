@@ -1,0 +1,45 @@
+{
+  "name": "hurp-log-pretty",
+  "version": "0.0.0",
+  "description": "Makes the logs pretty",
+  "keywords": [
+    "hurp",
+    "log",
+    "pretty"
+  ],
+  "bugs": "https://github.com/yaroslav-korotaev/hurp-log-pretty/issues",
+  "license": "MIT",
+  "author": "Yaroslav Korotaev <yaroslav.korotaev@gmail.com>",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "bin": {
+    "hurp-log-pretty": "bin/cli.js"
+  },
+  "repository": "yaroslav-korotaev/hurp-log-pretty",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "pump": "^3.0.0",
+    "split2": "^3.0.0",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.116",
+    "@types/node": "^10.5.1",
+    "@types/pump": "^1.0.1",
+    "@types/split2": "^2.1.6",
+    "@types/through2": "^2.0.33",
+    "ts-node": "^7.0.0",
+    "tslint": "^5.10.0",
+    "tslint-config-hurp": "^1.0.0",
+    "typescript": "^2.9.2"
+  }
+}
