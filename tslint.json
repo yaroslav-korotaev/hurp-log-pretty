@@ -1,8 +1,3 @@
 {
-  "extends": "tslint-config-hurp",
-  "rules": {
-    "no-void-expression": false,
-    "no-magic-numbers": false,
-    "object-literal-sort-keys": false
-  }
+  "extends": "tslint-config-hurp"
 }
