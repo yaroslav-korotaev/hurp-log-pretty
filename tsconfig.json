@@ -12,7 +12,6 @@
     "newLine": "lf",
     "noEmitOnError": true,
     "noImplicitReturns": true,
-    "noUnusedLocals": true,
     "outDir": ".",
     "paths": {
       "*": [
@@ -22,16 +21,13 @@
     },
     "sourceMap": true,
     "strict": true,
-    "target": "es2017",
-    "types": [
-      "node"
-    ]
+    "target": "es2017"
   },
   "include": [
     "src/bin/**/*.ts",
     "src/lib/**/*.ts"
   ],
   "exclude": [
-    "**/__tests__/**"
+    "src/**/__tests__/**/*.ts"
   ]
 }
