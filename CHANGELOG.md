@@ -1,3 +1,10 @@
+## [0.1.4](https://github.com/yaroslav-korotaev/hurp-log-pretty/compare/v0.1.3...v0.1.4) (2020-03-29)
+
+
+### Bug Fixes
+
+* update deps, remove tslint, add semantic-release integration ([b855c20](https://github.com/yaroslav-korotaev/hurp-log-pretty/commit/b855c20c760343a119c84e56a44b49effd6fae87))
+
 # Changelog
 
 ## [0.1.3] - 2019-06-07
